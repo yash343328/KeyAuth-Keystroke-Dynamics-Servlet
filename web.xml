@@ -1,0 +1,14 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+version="5.0">
+
+<servlet>
+<servlet-name>TypingAuth</servlet-name>
+<servlet-class>TypingAuth</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>TypingAuth</servlet-name>
+<url-pattern>/TypingAuth</url-pattern>
+</servlet-mapping>
+
+</web-app>
